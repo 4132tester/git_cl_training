@@ -1,0 +1,14 @@
+sudo apt-get install git
+git --version
+git init					//to make current folder - a git-repository
+git status
+git config -l				//check all configs
+git config --global user.name "Dmitriy Tester"
+git config --global user.email "4132tester@gmail.com"
+git remote add origin https://github.com/4132tester/git_cl_training.git 		//link remote project so that be able to commit to it
+git remote -v
+git status
+git add .					//add all new (uncommitted) files
+git commit -m "First commit"
+git status
+git push origin -u master
