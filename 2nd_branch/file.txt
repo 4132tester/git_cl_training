@@ -1,0 +1,12 @@
+git branch new-branch									//create new branch
+git new-branch 											//show all branches and current one
+git checkout new-branch									//switch to existing branch
+git checkout master
+git branch -D new-branch 								//delete specified branch
+git checkout -b new-branch 								//create And switch to a new branch
+git add .												//add changes to commit them
+git commit -m "Added new file (file.txt) with commands related to new branches"
+git push origin new-branch
+
+//>git checkout master will result in displaying old project-content in this git-repository
+
