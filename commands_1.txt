@@ -8,3 +8,16 @@ ______       	__         master branch
 
 
 //this text is added to make changes in child_2 branch
+
+//swiched back to branch child_1 and merged child_2 into it
+> git checkout child_1
+> git merge child_2
+
+//next steps: 
+//delete child_2
+> git branch -D child_2
+merge child_1 to master; see that master local i ahead of origin master; push local master to origin
+> git push origin master
+
+//delete child_1
+> git branch -D child_1
