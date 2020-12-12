@@ -1,0 +1,6 @@
+This will demonstrate how to merge 1 branch to another locally
+
+
+______       	__         master branch
+      \__    __/           child_1 branch
+         \__/              child_2 branch
