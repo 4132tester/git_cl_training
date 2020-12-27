@@ -12,3 +12,16 @@ git add .					//add all new (uncommitted) files
 git commit -m "First commit"
 git status
 git push origin -u master
+
+
+# deleting remote branches
+
+//preparation: create new branch, push it to remote and delete locally
+git checkout -b branch_for_delition
+git push origin branch_for_delition
+git checkout master
+git branch -D branch_for_delition
+
+//at this point branch_for_delition still exists on remote and can be switched to with 'git checkout' command
+//to delete it:
+git push origin --delete branch_for_delition
